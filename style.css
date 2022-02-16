@@ -159,6 +159,22 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  @media screen and (max-width:390px){
+    .calculator{
+      height: 703px;
+    }
+  
+  }
+
+  @media screen and (max-width:500px) {
+    .calculator {
+      margin-top: 20px;
+    
+  }
+  body{
+    margin:10px;
+  }
+}
 
   @media screen and (max-width: 992px) {
     button {
