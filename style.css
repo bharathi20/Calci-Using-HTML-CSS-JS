@@ -172,6 +172,7 @@
     .calculator {
       margin-top: 20px;
       width:393px;
+      margin-left: -1px;
     
   }
   body{
