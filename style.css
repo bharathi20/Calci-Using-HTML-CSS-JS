@@ -160,15 +160,21 @@
     transform: translateX(-50%);
   }
   @media screen and (min-width:300px){
+    body{
+      margin:16px;
+    }
     .calculator{
       height: 703px;
-      width:355px;
-
+      margin-top: 15px;
+      width:347px;
+    }
+    .top-container{
+      font-size:14px;
     }
   
   }
 
-  @media screen and (min-width:400px) {
+  @media screen and (min-width:350px) {
     .calculator {
       margin-top: 20px;
       width:393px;
